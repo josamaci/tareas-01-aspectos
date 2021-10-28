@@ -1,4 +1,7 @@
-module espol.deber {
+module espol.observer {
     requires javafx.controls;
-    exports espol.deber;
+    requires javafx.fxml;
+
+    opens espol.observer to javafx.fxml;
+    exports espol.observer;
 }
