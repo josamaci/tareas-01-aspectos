@@ -32,4 +32,8 @@ public class App extends Application {
         launch();
     }
 
+    public static void printFun(String color) {
+        System.out.println("Cambia de Color" + color);
+    }
+
 }

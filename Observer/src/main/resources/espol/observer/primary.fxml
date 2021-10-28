@@ -5,12 +5,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<<<<<<< HEAD
-<FlowPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="espol.observer.PrimaryController">
-=======
 
 <AnchorPane fx:id="fondo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="espol.observer.PrimaryController">
->>>>>>> 72ce60725812d48b40c9014fbc54e14ac8bdfda2
    <children>
       <Button fx:id="btRojo" layoutX="68.0" layoutY="239.0" mnemonicParsing="false" onMouseClicked="#cambiarRojo" prefHeight="48.0" prefWidth="118.0" text="ROJO" />
       <Label layoutX="164.0" layoutY="132.0" text="CAMBIAR COLOR DE FONDO">
