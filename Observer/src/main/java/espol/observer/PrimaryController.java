@@ -16,7 +16,7 @@ public class PrimaryController {
     private Button btAzul;
     @FXML
     private Button btVerde;
-
+    
     @FXML
     private void cambiarRojo(MouseEvent event) {
     }
