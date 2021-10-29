@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package tarea01;
-
 import java.awt.Color;
 
 /**
@@ -127,14 +126,20 @@ public class f1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
-        jPanel1.setBackground(Color.BLUE);
+        ColorHandler.setColorName("BLUE");
+    	jPanel1.setBackground(Color.BLUE);
+
     }//GEN-LAST:event_jButton3MouseClicked
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked
-        jPanel1.setBackground(Color.GREEN);    }//GEN-LAST:event_jButton2MouseClicked
+    	ColorHandler.setColorName("GREEN");
+    	jPanel1.setBackground(Color.GREEN);    //GEN-LAST:event_jButton2MouseClicked
 
+    }
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
-        jPanel1.setBackground(Color.RED);
+        ColorHandler.setColorName("RED");
+    	jPanel1.setBackground(Color.RED);
+
     }//GEN-LAST:event_jButton1MouseClicked
 
     /**
