@@ -6,7 +6,7 @@ public aspect Prueba {
 
     after() : printing() {
 
-        System.out.println("La pantalla a cambiado de color a: "+thisJoinPoint.getSignature().;
+        System.out.println("La pantalla a cambiado de color");
 
     }
 
